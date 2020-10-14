@@ -28,16 +28,18 @@
 
 
 
-***Set 'Default test runner' - pytest:***
+***Set 'Default test runner' - 'pytest':***
 
 ![alt text](https://github.com/DmytroIarovyi/Misc/blob/main/Screenshot%20from%202020-10-14%2015-20-33.png)
 
 
 ***Restrictions/Warnings***
- * ...As long as tests are running on Lufthansa's PROD - next issues may/will occur: 
+ * <ins>...As long as tests are running on Lufthansa's PROD - next issues may/will occur:</ins>
  - Lufthansa may detect this is an automatic software
- - CAPTCHA test can be shown on any stage of browser navigation*
- * *(to be able to run the test please put brakepoints in debug mode, pass CAPTCHA tests and then continue)
+ - CAPTCHA test can be shown on any stage of browser navigation
+ 
+ 
+   (to be able to run the test please put brakepoints in debug mode, pass CAPTCHA tests and then continue)
 
 
 
