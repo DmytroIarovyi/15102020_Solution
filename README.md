@@ -46,6 +46,8 @@
 ## Run app (tests)
 *Entry point* - Run tests from here:  tests/search_flight/test_search_result.py
 
+Alternatively you can run via command line. In PyCharm console run - 'pytest tests/search_flight'
+
  
  
  # Part 2
