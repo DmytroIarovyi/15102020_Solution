@@ -1,21 +1,21 @@
-## Part 1
+# Part 1
 
-Requirements:
+***Requirements:***
  - Python 3.5+
  - Chrome browser version 79+
 
-Used ENV:
+***Used ENV:***
  - Linux 64 bit (16.04)
  - PyCharm IDE
  
-Used patterns and frameworks:
+***Used patterns and frameworks:***
  - Singleton
  - Page Factory Selenium
  - Selenium
  - Paho mqtt
  - pytest
  
-Packages to install:
+***Packages to install:***
  - pip install selenium-page-factory
  - pip install paho-mqtt
  - go through files and add missed packages - they should be included in default python packages set
@@ -28,25 +28,25 @@ Packages to install:
 
 
 
-Set 'Default test runner' - pytest:
+***Set 'Default test runner' - pytest:***
 
 ![alt text](https://github.com/DmytroIarovyi/Misc/blob/main/Screenshot%20from%202020-10-14%2015-20-33.png)
 
 
-Restrictions/Warnings
- - ...As long as tests are running on Lufthansa's PROD - next issues may/will occur: 
+***Restrictions/Warnings***
+ * ...As long as tests are running on Lufthansa's PROD - next issues may/will occur: 
  - Lufthansa may detect this is an automatic software
  - CAPTCHA test can be shown on any stage of browser navigation*
- - *(to be able to run the test please put brakepoints in debug mode, pass CAPTCHA tests and then continue)
+ * *(to be able to run the test please put brakepoints in debug mode, pass CAPTCHA tests and then continue)
 
 
 
 ## Run app (tests)
-Entry point - Just run tests: tests/search_flight/test_search_result.py
+*Entry point* - Run tests from here:  tests/search_flight/test_search_result.py
 
  
  
- ## Part 2
+ # Part 2
  
  1. Verify data fomat correctness (dates, flight numbers, statuses, cities, timeformat, airlines etc.)
  2. Verify if it is sorted by date, time in a list. (or some other criteria depending on specs)
