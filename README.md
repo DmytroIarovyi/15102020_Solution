@@ -58,9 +58,9 @@
  6. Verify new entries(y) appears on update requests (if there are any)
  7. Verify Search sorts out only data according to search request. (handle non-existent requests)
  8. Verify Filter sorts out data according to filter provided. Test with variety combinations
- 9. Verify Alerts workability (create alerts, ensure data is received as soon as it is available - (you can compare the data available in a list with alert details))
- 10.Verify Alerts flow with invalid data (invalid email/phone number, offline device)
- 11. Verify performance for : search, filter requests
- 12. Verify error cases (connection, backend sends errors, etc) handling - (chaos monkeys can be used or simulation using api)
- 13. Verify workability on other browsers, devices - desktop/mobile/tablet
+ 9. Verify Alerts flow with invalid data (invalid email/phone number, offline device)
+ 10. Verify performance for : search, filter requests
+ 11. Verify error cases (connection, backend sends errors, etc) handling - (chaos monkeys can be used or simulation using api)
+ 12. Verify workability on other browsers, devices - desktop/mobile/tablet
+ 13. Verify Alerts workability (create alerts, ensure data is received as soon as it is available) - (you can compare the data available in a list with alert details)
  
