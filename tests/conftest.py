@@ -4,7 +4,7 @@ from ui.driver import Driver
 from connection_configuration.mqtt_broker import FlightUpdateListener
 from ui.helpers.flight_data import get_airline, get_flight_number_without_airline
 from ui.pages.home import HomePage
-from ui.helpers.flight_data.topic import current_date
+from ui.helpers.topic import current_date
 
 
 @pytest.fixture(scope='module')
